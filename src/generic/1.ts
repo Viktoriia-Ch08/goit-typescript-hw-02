@@ -1,5 +1,5 @@
 function getPromise (): Promise<(string | number)[]> {
-  return new Promise<(string | number)[]>((resolve) => {
+  return new Promise((resolve) => {
     resolve(['Text', 50]);
   });
 }
